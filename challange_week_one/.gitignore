@@ -1,0 +1,18 @@
+# Terraform working directories
+ec2/.terraform/
+vpc/.terraform/
+
+# Terraform state files
+ec2/*.tfstate
+ec2/*.tfstate.backup
+vpc/*.tfstate
+vpc/*.tfstate.backup
+
+#recusive
+**/*.tfstate 
+
+
+# Keys / credentials
+ec2/public-key.pem
+*.pem
+.env
